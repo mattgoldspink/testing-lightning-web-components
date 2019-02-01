@@ -4,15 +4,11 @@
   "description": "## Dev, Build and Test",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "lwc-jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@lwc/compiler": "^0.34.0",
-    "@lwc/engine": "^0.34.0",
-    "@lwc/jest-preset": "^0.34.0",
-    "@lwc/module-resolver": "^0.34.0",
-    "jest": "^23.6.0"
+    "@salesforce/lwc-jest": "^0.4.7"
   }
 }
